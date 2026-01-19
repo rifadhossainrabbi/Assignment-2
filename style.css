@@ -165,7 +165,7 @@ nav ul li a:hover {
 .hero_text_btn .one img {
   position: relative;
   right: 5px;
-  top: 5px;
+  top: 3px;
 }
 
 .hero_text_btn .two img {
@@ -269,8 +269,94 @@ nav ul li a:hover {
   font-size: 1rem;
 }
 
+/* Why Choose TechWave style */
+
+.why_choose_techwave {
+  width: 100%;
+  max-width: 1600px;
+  background-color: #230E3D;
+  padding: 120px 200px;
+}
+
+.choose_techwave_container {
+  /* border: 1px solid red; */
+  max-width: 1200px;
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.header_choose_techwave {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header_choose_techwave h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.choose_cards {
+  display: grid;
+  gap: 30px;
+  grid-template-areas: "card1 card2 card2"
+    "card1 card3 card3"
+    "card4 card4 card5";
+}
+
+.choose_cards .card:nth-child(1) {
+  grid-area: card1;
+  padding: 107px 40px;
+}
+
+.choose_cards .card:nth-child(2) {
+  grid-area: card2;
+}
+
+.choose_cards .card:nth-child(3) {
+  grid-area: card3;
+}
+
+.choose_cards .card:nth-child(4) {
+  grid-area: card4;
+}
+
+.choose_cards .card:nth-child(5) {
+  grid-area: card5;
+}
+
+.choose_cards .card {
+  /* border: 1px solid red; */
+  padding: 40px;
+  background-color: #351165;
+  border-radius: 15px;
+}
+
+.choose_cards .card img {
+  width: 50px;
+  height: 50px;
+}
+
+.choose_cards .card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 1rem 0;
+}
+
+.choose_cards .card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffffb2;
+}
+
 /* Media query */
- @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
   /* body{
     margin: 20px;
@@ -457,7 +543,7 @@ nav ul li a:hover {
   .review_option {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:30px ;
+    gap: 30px;
   }
 
   .horizontal_line {
@@ -480,4 +566,73 @@ nav ul li a:hover {
     color: #ffffffce;
     font-size: 1rem;
   }
-} 
+
+  /* Why Choose TechWave style */
+
+  .why_choose_techwave {
+    width: 100%;
+    max-width: 100%;
+    background-color: #230E3D;
+    padding: 40px 20px;
+  }
+
+  .choose_techwave_container {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+
+  .header_choose_techwave {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .header_choose_techwave h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .choose_cards {
+    display: grid;
+    gap: 30px;
+    grid-template-areas: "card1"
+      "card2 "
+      "card3"
+      "card4"
+      "card5";
+  }
+
+  .choose_cards .card:nth-child(1) {
+    /* grid-area: card1; */
+    padding: 29px 24px 24px;
+  }
+
+  .choose_cards .card:nth-child(2),
+  .choose_cards .card:nth-child(3),
+  .choose_cards .card:nth-child(4),
+  .choose_cards .card:nth-child(5) {
+    padding: 26px 24px 24px;
+  }
+
+  .choose_cards .card {
+    /* border: 1px solid red; */
+    /* padding: 40px; */
+    background-color: #351165;
+    border-radius: 10px;
+  }
+
+  .choose_cards .card img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .choose_cards .card h2 {
+    font-size: 22px;
+  }
+}
