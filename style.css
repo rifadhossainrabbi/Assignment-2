@@ -487,19 +487,19 @@ nav ul li a:hover {
   color: #FFFFFF;
 }
 
-.alex_info p{
+.alex_info p {
   font-size: 1rem;
   color: #ffffffb5;
   margin: 1rem 0;
   line-height: 24px;
 }
 
-.links{
-  display:flex;
+.links {
+  display: flex;
   gap: 8px;
 }
 
-.links_circle{
+.links_circle {
   width: 40px;
   height: 40px;
   border: 1px solid #533C72;
@@ -507,7 +507,7 @@ nav ul li a:hover {
   padding: 10px;
 }
 
-.links_circle:hover{
+.links_circle:hover {
   background-color: #b832f5;
   /* color: #FFFFFF; */
   cursor: pointer;
@@ -794,5 +794,152 @@ nav ul li a:hover {
 
   .choose_cards .card h2 {
     font-size: 22px;
+  }
+
+  /* Featured episode and Meet the host Responsive */
+  .featureds_epi_a_meet_host {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+    background-color: #1A0B2E;
+    padding: 40px 20px;
+  }
+
+  .featured_epi_a_meet_host_container {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .featured_episodes {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .featured_episodes h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+
+  .cards_featureds {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card_fe {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    /* height: 440px !important; */
+    color: #FFFFFF;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .card_fe_paragraph {
+    background-color: #250D44;
+    padding: 1rem;
+    text-align: left;
+    /* height: 226px; */
+  }
+
+  .card_fe_paragraph h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .card_fe_paragraph p {
+    font-size: 1rem;
+    color: #ffffffa3;
+    margin-bottom: 8px;
+  }
+
+  .time_table {
+    display: flex;
+    gap: 5px;
+  }
+
+  .time_spend {
+    color: #00FF88;
+  }
+
+  /* Meet The Host scetion */
+
+  .meet_the_host {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .meet_host_head {
+    width: 100%;
+    text-align: center;
+  }
+
+  .meet_host_head h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+  }
+
+  .alex_kumar {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width:100%;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgba(53, 17, 101, 0.4); */
+    border-radius: 15px;
+  }
+
+  .alex_img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1rem;
+  }
+
+  .alex_img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .alex_info h1 {
+    font-size: 1.5rem;
+    /* font-weight: bold;
+    color: #FFFFFF; */
+  }
+
+  /* .alex_info p {
+    font-size: 1rem;
+    color: #ffffffb5;
+    margin: 1rem 0;
+    line-height: 24px;
+  } */
+
+  .links {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 8px; */
   }
 }
