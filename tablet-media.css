@@ -1,0 +1,227 @@
+  @media (min-width: 576px) and (max-width: 992px) {
+
+    /* Navbar responsive for mobile device */
+    nav {
+      width: 100% !important;
+      max-width: 90%;
+      margin-top: 20px;
+      padding: 0 20px;
+    }
+
+    nav ul {
+      display: flex;
+    }
+
+    .btn {
+      display: flex;
+    }
+
+    .menu {
+      display: none !important;
+    }
+
+    /* hero section responsive for mobile device */
+    .hero_section {
+      background-size: cover;
+      width: 100%;
+      max-width: 992px;
+      padding: 60px 225px;
+    }
+
+    .hero_container {
+      width: 100%;
+      max-width: 450px;
+      text-align: center;
+      text-align: center;
+      position: relative;
+      top: 25px;
+    }
+
+    .top_img {
+      /* border: 1px solid red; */
+      background-image: url('hero-circle.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      max-width: 255px;
+      height: 255px;
+    }
+
+    .top_img img {
+      max-width: 50%;
+      max-height: 100px;
+    }
+
+    .hero_text {
+      max-width: 100%;
+      width: 450px;
+    }
+
+    .hero_text h1 {
+      font-size: 2.5rem;
+      margin: 30px 0 15px;
+    }
+
+    .hero_text p {
+      margin-bottom: 2rem;
+    }
+
+    .about_the_podcast {
+      width: 100%;
+      max-width: 992px;
+      padding: 50px 100px;
+    }
+
+    /* hide the br tag */
+    .four {
+      display: none;
+    }
+
+    .about_the_podcast_container {
+      max-width: 992px;
+    }
+
+    .horizontal_line {
+      margin: 50px 0;
+      max-width: 992px;
+    }
+
+    /* Why Choose TechWave style */
+    .why_choose_techwave {
+      max-width: 992px;
+      padding: 100px 100px;
+    }
+
+    .choose_techwave_container {
+      max-width: 992px;
+    }
+
+    .header_choose_techwave {
+      margin-bottom: 1.75rem;
+    }
+
+    .header_choose_techwave h1 {
+      font-size: 2.5rem;
+    }
+
+    .choose_cards {
+      display: grid;
+      gap: 30px;
+      grid-template-areas:
+        "card1 card1 card1"
+        "card4 card3 card3"
+        "card4 card2 card2"
+        "card5 card5 card5";
+    }
+
+    .choose_cards .card:nth-child(4) {
+      padding: 80px 24px 30px;
+    }
+
+    .choose_cards .card:nth-child(1),
+    .choose_cards .card:nth-child(2),
+    .choose_cards .card:nth-child(3),
+    .choose_cards .card:nth-child(5) {
+      padding: 26px 24px 24px;
+    }
+
+    .choose_cards .card {
+      border-radius: 15px;
+    }
+
+    /* Featured episode and Meet the host Responsive */
+    .featureds_epi_a_meet_host {
+      max-width: 992px;
+      padding: 80px 150px 120px;
+    }
+
+    .featured_epi_a_meet_host_container {
+      max-width: 992px;
+    }
+
+    .featured_episodes {
+      max-width: 992px;
+      margin-bottom: 90px;
+    }
+
+    .featured_episodes h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2.75rem;
+    }
+
+    .cards_featureds {
+      width: 100%;
+      max-width: 992px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 35px;
+    }
+
+    .card_fe {
+      max-width: 100%;
+      max-height: 600px;
+      border-radius: 30px;
+    }
+
+    .iframe {
+      width: 100%;
+    }
+
+    .card_fe_paragraph {
+      padding: 1.5rem;
+    }
+
+    /* Meet The Host scetion */
+    .meet_the_host {
+      max-width: 992px;
+    }
+
+    .alex_kumar {
+      width: 100%;
+      max-width: 992px;
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .alex_img {
+      margin: 0 auto 2rem;
+    }
+
+    .links {
+      gap: 15px;
+      justify-content: center;
+    }
+
+    /* Footer section */
+    footer {
+      max-width: 992px;
+      padding: 80px;
+    }
+
+    .footer_container {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .f_headerd_logo img {
+      max-width: 360px;
+    }
+
+    .sponsor_companys {
+      max-width: 500px;
+    }
+
+    .company {
+      width: 100%;
+      display: grid;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .company a {
+      display: flex;
+      gap: 8px;
+    }
+
+  }

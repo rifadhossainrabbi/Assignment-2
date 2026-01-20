@@ -78,7 +78,7 @@ nav ul li a:hover {
   background-image: url('hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   max-width: 1600px;
   padding: 101px 525px;
@@ -95,6 +95,7 @@ nav ul li a:hover {
 .top_img {
   /* border: 1px solid red; */
   background-image: url('hero-circle.png');
+  background-repeat: no-repeat;
   max-width: 348px;
   height: 350px;
   margin: 0 auto;
@@ -107,10 +108,6 @@ nav ul li a:hover {
 .top_img img {
   max-width: 116px;
   max-height: 175px;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,50%); */
 }
 
 .top_img_new_item {
@@ -165,7 +162,6 @@ nav ul li a:hover {
   font-size: 3.75rem;
   font-weight: 900;
   color: #FFFFFF;
-  /* margin: 2.5rem auto 0.625rem; */
   margin: 2.5rem 0 0.5rem;
 }
 
@@ -225,6 +221,7 @@ nav ul li a:hover {
 }
 
 .paragraph_option .text p {
+  font-size: 1rem;
   margin-top: 20px !important;
   line-height: 20px;
 }
@@ -232,6 +229,8 @@ nav ul li a:hover {
 .review_option {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 .horizontal_line {
@@ -257,7 +256,6 @@ nav ul li a:hover {
 }
 
 /* Why Choose TechWave style */
-
 .why_choose_techwave {
   width: 100%;
   max-width: 1600px;
@@ -269,7 +267,6 @@ nav ul li a:hover {
   /* border: 1px solid red; */
   max-width: 1200px;
   width: 100%;
-  /* margin: 0 auto; */
 }
 
 .header_choose_techwave {
@@ -385,7 +382,6 @@ nav ul li a:hover {
 .card_fe {
   /* border: 1px solid red; */
   max-width: 380px;
-  /* height: 440px !important; */
   color: #FFFFFF;
   border-radius: 30px;
   overflow: hidden;
@@ -401,7 +397,6 @@ nav ul li a:hover {
   background-color: #250D44;
   padding: 24px;
   text-align: left;
-  /* height: 226px; */
 }
 
 .card_fe_paragraph h2 {
@@ -427,7 +422,6 @@ nav ul li a:hover {
 
 
 /* Meet The Host scetion */
-
 .meet_the_host {
   /* border: 1px solid red; */
   width: 100%;
@@ -496,7 +490,6 @@ nav ul li a:hover {
 
 .links_circle:hover {
   background-color: #b832f5;
-  /* color: #FFFFFF; */
   cursor: pointer;
   position: relative;
   top: -10px;
@@ -506,15 +499,13 @@ nav ul li a:hover {
 footer {
   /* border: 1px solid red; */
   background-image: url('footer-bg.png');
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   width: 100%;
   max-width: 1600px;
   padding: 120px;
   color: #ffffffc1;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .footer_container {
@@ -534,20 +525,14 @@ footer {
 .sponsor_companys {
   width: 100%;
   max-width: 540px;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* gap: 60px; */
-  /* justify-content: space-between !important;  */
-  /* display: inline-block; */
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .company {
-  width: 544px;
+  max-width: 544px;
   display: grid;
   grid-template-columns: repeat(4, auto);
-  /* grid-template-areas: "one two three four"; */
   justify-content: space-between;
 }
 
@@ -566,22 +551,6 @@ footer {
 .company a:hover {
   color: #b832f5;
 }
-
-/* .company a:nth-child(1){
-  grid-area: one;
-}
-
-.company a:nth-child(2) {
-  grid-area: two;
-}
-
-.company a:nth-child(3) {
-  grid-area: three;
-}
-
-.company a:nth-child(4) {
-  grid-area: four;
-} */
 
 .last_paragraph {
   margin: 0 auto;
@@ -689,7 +658,6 @@ footer {
 
 
   /* About the podcast responsive for mobile device */
-
   .about_the_podcast {
     /* border: 1px solid red; */
     width: 100%;
@@ -709,15 +677,15 @@ footer {
     margin: 0 auto;
   }
 
-  .paragraph_option {
+  /* .paragraph_option {
     color: #ffffffca;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-  }
+  } */
 
   .paragraph_option .text h1 {
-    font-size: 48px;
+    font-size: 40px;
     color: #FFFFFF;
     font-weight: bold;
     margin-bottom: 16px;
@@ -757,7 +725,6 @@ footer {
   }
 
   /* Why Choose TechWave style */
-
   .why_choose_techwave {
     width: 100%;
     max-width: 100%;
@@ -854,7 +821,7 @@ footer {
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 16px;
+    /* gap: 30px; */
   }
 
   .card_fe {
@@ -871,15 +838,10 @@ footer {
   }
 
   .card_fe_paragraph {
-    background-color: #250D44;
     padding: 1rem;
-    text-align: left;
-    /* height: 226px; */
   }
 
   .card_fe_paragraph h2 {
-    font-size: 1.25rem;
-    font-weight: bold;
     margin-bottom: 8px;
   }
 
@@ -899,7 +861,6 @@ footer {
   }
 
   /* Meet The Host scetion */
-
   .meet_the_host {
     width: 100%;
     max-width: 100%;
@@ -1002,18 +963,11 @@ footer {
     left: 24%;
   }
 
-  .company img {
-    width: 20px;
-    height: 20px;
-  }
-
   .company a:hover {
     color: #b832f5;
   }
 
   .last_paragraph {
-    margin: 0 auto;
     width: 100%;
-    text-align: center;
   }
 }
