@@ -163,7 +163,7 @@
     }
 
     .iframe {
-      width: 100%;
+      max-width: 100%;
     }
 
     .card_fe_paragraph {
