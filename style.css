@@ -21,9 +21,6 @@ nav {
   background-color: rgba(26, 11, 46, 1);
   border: 1px solid transparent;
   max-width: 75%;
-  /* max-width: 1200px; */
-  /* width: 1200px; */
-  /* height: 44px; */
   margin: 24px auto;
   padding: 1rem;
   color: #FFFFFF;
@@ -78,12 +75,10 @@ nav ul li a:hover {
 
 /* Header er hero section style */
 .hero_section {
-  /* border: 1px solid red; */
   background-image: url('hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  /* background-position: center; */
   width: 100%;
   max-width: 1600px;
   padding: 101px 525px;
@@ -93,7 +88,6 @@ nav ul li a:hover {
 }
 
 .hero_container {
-  /* border: 1px solid red; */
   max-width: 548px;
   text-align: center;
 }
@@ -103,9 +97,7 @@ nav ul li a:hover {
   background-image: url('hero-circle.png');
   max-width: 348px;
   height: 350px;
-  /* max-height: auto; */
   margin: 0 auto;
-  /* text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,14 +136,9 @@ nav ul li a:hover {
 }
 
 /* Logo TechWave style */
-.tech_style {
-  color: #FFFFFF;
-}
-
-.wave_style {
-  background: linear-gradient(to bottom left, rgba(145, 0, 248, 1), rgba(251, 9, 180, 1), rgba(247, 233, 63, 1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.nav_logo img{
+  width: 100%;
+ max-width: 219px;
 }
 
 .hero_text {
@@ -518,33 +505,12 @@ nav ul li a:hover {
 /* Media query */
 @media screen and (max-width: 576px) {
 
-  /* body{
-    margin: 20px;
-    padding: 20px;
-  } */
-
   /* Navbar responsive for mobile device */
   nav {
-    /* background-color: rgba(26, 11, 46, 1); */
-    border: 1px solid transparent;
-    /* max-width: 75%; */
-    /* max-width: 1200px; */
-    /* width: 1200px; */
-    /* height: 44px; */
     width: 100% !important;
     max-width: 100%;
-    /* min-width: 100%; */
-    margin: 0;
+    margin-top: 20px;
     padding: 0 20px;
-    /* gap: 239px; */
-    /* padding: 1rem; */
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between; */
   }
 
   nav ul {
@@ -567,22 +533,13 @@ nav ul li a:hover {
   /* hero section responsive for mobile device */
 
   .hero_section {
-    /* border: 1px solid red; */
-    background-image: url('hero-bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: contain;
-    /* background-position: center; */
     width: 100%;
     max-width: 100%;
     padding: 0 20px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .hero_container {
-    /* border: 1px solid red; */
     width: 100%;
     max-width: 400px;
     text-align: center;
@@ -598,26 +555,16 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     max-width: 200px;
     height: 200px;
-    /* max-height: auto; */
     margin: 0 auto;
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
   }
 
   .top_img img {
     max-width: 25%;
     max-height: 70px;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,50%); */
   }
 
   .hero_text {
-    /* max-width: 40%; */
     max-width: 100%;
     width: 400px;
     margin-bottom: 0 auto;
@@ -628,7 +575,6 @@ nav ul li a:hover {
     font-size: 2rem;
     font-weight: 400;
     color: #FFFFFF;
-    /* margin: 2.5rem auto 0.625rem; */
     margin: 24px 0 8px;
   }
 
@@ -661,11 +607,7 @@ nav ul li a:hover {
     /* border: 1px solid red; */
     width: 100%;
     max-width: 100%;
-    /* height: auto; */
     padding: 20px 20px;
-    /* margin: 40px 20px; */
-    /* display: flex;
-    flex-direction: column; */
   }
 
   /* hide the br tag */
@@ -740,7 +682,6 @@ nav ul li a:hover {
     /* border: 1px solid red; */
     max-width: 100%;
     width: 100%;
-    /* margin: 0 auto; */
   }
 
   .header_choose_techwave {
@@ -781,8 +722,6 @@ nav ul li a:hover {
   }
 
   .choose_cards .card {
-    /* border: 1px solid red; */
-    /* padding: 40px; */
     background-color: #351165;
     border-radius: 10px;
   }
@@ -798,7 +737,6 @@ nav ul li a:hover {
 
   /* Featured episode and Meet the host Responsive */
   .featureds_epi_a_meet_host {
-    /* border: 1px solid red; */
     width: 100%;
     max-width: 100%;
     background-color: #1A0B2E;
@@ -806,13 +744,11 @@ nav ul li a:hover {
   }
 
   .featured_epi_a_meet_host_container {
-    /* border: 1px solid red; */
     width: 100%;
     max-width: 100%;
   }
 
   .featured_episodes {
-    /* border: 1px solid red; */
     width: 100%;
     max-width: 100%;
     margin-bottom: 60px;
@@ -827,7 +763,6 @@ nav ul li a:hover {
   }
 
   .cards_featureds {
-    /* border: 1px solid red; */
     width: 100%;
     max-width: 100%;
     display: grid;
@@ -836,9 +771,7 @@ nav ul li a:hover {
   }
 
   .card_fe {
-    /* border: 1px solid red; */
     max-width: 100%;
-    /* height: 440px !important; */
     color: #FFFFFF;
     border-radius: 15px;
     overflow: hidden;
@@ -881,7 +814,6 @@ nav ul li a:hover {
   /* Meet The Host scetion */
 
   .meet_the_host {
-    /* border: 1px solid red; */
     width: 100%;
     max-width: 100%;
   }
@@ -899,16 +831,13 @@ nav ul li a:hover {
   }
 
   .alex_kumar {
-    /* border: 1px solid red; */
     width: 100%;
     max-width:100%;
     padding: 1.5rem;
     display: grid;
     grid-template-columns: 1fr;
-    /* align-items: center; */
     justify-content: center;
     text-align: center;
-    /* background-color: rgba(53, 17, 101, 0.4); */
     border-radius: 15px;
   }
 
@@ -925,21 +854,10 @@ nav ul li a:hover {
 
   .alex_info h1 {
     font-size: 1.5rem;
-    /* font-weight: bold;
-    color: #FFFFFF; */
   }
 
-  /* .alex_info p {
-    font-size: 1rem;
-    color: #ffffffb5;
-    margin: 1rem 0;
-    line-height: 24px;
-  } */
-
   .links {
-    /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
-    /* gap: 8px; */
   }
 }
